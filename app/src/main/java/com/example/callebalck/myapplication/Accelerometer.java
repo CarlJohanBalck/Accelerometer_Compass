@@ -22,7 +22,7 @@ public class Accelerometer extends AppCompatActivity implements SensorEventListe
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-        xText.setText("X-värde: " + event.values[0]); //x-värdet lagras i första positionen i vektorn, y i andra osv
+        xText.setText("X-värde: " + event.values[0]); //x-value is stored in the first position of the values-vector, y in second and so on
         yText.setText("Y-värde: " + event.values[1]);
         zText.setText("Z-värde: " + event.values[2]);
 
