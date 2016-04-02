@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Compass</string>
+    <string name="button_send2">Accelerometer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_accelerometer1">Accelerometer1</string>
+    <string name="title_activity_compass">Compass</string>
+</resources>

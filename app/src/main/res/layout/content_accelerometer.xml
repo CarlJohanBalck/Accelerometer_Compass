@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="X-värde"
+            android:textColor="#38ff01"
+            android:id="@+id/xText"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="106dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Y-värde"
+            android:textColor="#0033ff"
+            android:id="@+id/yText"
+            android:layout_below="@+id/xText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="66dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Z-värde"
+            android:textColor="#F00"
+            android:id="@+id/zText"
+            android:layout_below="@+id/yText"
+            android:layout_alignRight="@+id/yText"
+            android:layout_alignEnd="@+id/yText"
+            android:layout_marginTop="90dp" />
+
+    </RelativeLayout>
+</LinearLayout>
