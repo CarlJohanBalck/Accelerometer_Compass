@@ -18,10 +18,9 @@ import android.widget.TextView;
 
 public class Compass extends Activity implements SensorEventListener{
     private ImageView image;
-    //håller koll på den aktuella vinkeln
     private float currentDegree = 0f;
     private SensorManager SM;
-    //Presenterar den aktuella vinkeln
+    //Presents the current direction
     TextView tvHeading;
 
     @Override

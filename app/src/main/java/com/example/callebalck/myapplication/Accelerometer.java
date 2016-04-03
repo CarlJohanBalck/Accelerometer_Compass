@@ -26,7 +26,6 @@ public class Accelerometer extends AppCompatActivity implements SensorEventListe
         yText.setText("Y-värde: " + event.values[1]);
         zText.setText("Z-värde: " + event.values[2]);
 
-
     }
 
     @Override
