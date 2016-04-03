@@ -46,7 +46,6 @@ public class Compass extends Activity implements SensorEventListener{
                 Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
         //how long the animation will take place
         ra.setDuration(210);
-
         ra.setFillAfter(true);
         image.startAnimation(ra);
         currentDegree = -degree;
@@ -63,7 +62,7 @@ public class Compass extends Activity implements SensorEventListener{
     protected void onPause(){
         super.onPause();
 
-        //to stop listener and save battery
+        //stops the listener and saves battery
         SM.unregisterListener(this);
     }
     @Override
